@@ -2,7 +2,7 @@
 # _*_ coding:utf-8 _*_
 
 import logging
-from xmind2testcase.metadata import TestSuite, TestCase, TestStep
+from xmind2testcase2021.metadata import TestSuite, TestCase, TestStep
 
 config = {'sep': ' ',
           'valid_sep': '&>+/-',
@@ -13,7 +13,7 @@ config = {'sep': ' ',
 
 
 def xmind_to_testsuites(xmind_content_dict):
-    """convert xmind file to `xmind2testcase.metadata.TestSuite` list"""
+    """convert xmind file to `xmind2testcase2021.metadata.TestSuite` list"""
     suites = []
 
     for sheet in xmind_content_dict:
@@ -169,7 +169,7 @@ def get_execution_type(topics):
         if item.lower() in ['自动', 'auto', 'automate', 'automation']:
             exe_type = 2
             break
-        if item.lower() in ['手动', '手工', 'manual']:
+        if item.lower() in ['功能测试', '手工', 'manual']:
             exe_type = 1
             break
     return exe_type

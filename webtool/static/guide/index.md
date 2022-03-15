@@ -116,5 +116,4 @@ xmind2testcase webtool 8000   => launch the web testcase convertion tool locally
 
 ### 五、相关内容
 - [XMind测试用例模板.xmind下载](XMind测试用例模板.xmind)
-- [XMind2TestCase:一个高效测试用例设计的解决方案！](https://github.com/zhuifengshen/xmind2testcase)
-- [XMind:XMind思维导图创建、解析、更新的一站式解决方案！](https://github.com/zhuifengshen/xmind)
+- [XMind2TestCase:一个高效测试用例设计的解决方案！](https://pypi.org/project/xmind2testcase2021/1.0.3/)

@@ -227,7 +227,7 @@
 <![CDATA[测试集摘要（详情）]]>				 
 				<!-- -->
 			</details>
-			<testcase name="测试步骤2（优先级默认为中）">
+			<testcase name="测试步骤2（优先级默认为P1）">
 				<version>
 					<!-- -->
 <![CDATA[1]]>					 
@@ -235,7 +235,7 @@
 				</version>
 				<summary>
 					<!-- -->
-<![CDATA[测试步骤2（优先级默认为中）]]>					 
+<![CDATA[测试步骤2（优先级默认为P1）]]>
 					<!-- -->
 				</summary>
 				<preconditions>
@@ -1138,7 +1138,7 @@
 				</summary>
 				<preconditions>
 					<!-- -->
-<![CDATA[前置条件：如果测试用例上没有标注优先级，则默认作为一条测试用例且优先级默认为中（默认为空）]]>					 
+<![CDATA[前置条件：如果测试用例上没有标注优先级，则默认作为一条测试用例且优先级默认为P1（默认为空）]]>
 					<!-- -->
 				</preconditions>
 				<execution_type>
@@ -1169,7 +1169,7 @@
 				</summary>
 				<preconditions>
 					<!-- -->
-<![CDATA[前置条件：如果测试用例上没有标注优先级，则默认作为一条测试用例且优先级默认为中（默认为空）]]>					 
+<![CDATA[前置条件：如果测试用例上没有标注优先级，则默认作为一条测试用例且优先级默认为P1（默认为空）]]>
 					<!-- -->
 				</preconditions>
 				<execution_type>

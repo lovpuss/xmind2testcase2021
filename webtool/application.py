@@ -8,9 +8,9 @@ import sqlite3
 from contextlib import closing
 from os.path import join, exists
 from werkzeug.utils import secure_filename
-from xmind2testcase.zentao import xmind_to_zentao_csv_file
-from xmind2testcase.testlink import xmind_to_testlink_xml_file
-from xmind2testcase.utils import get_xmind_testsuites, get_xmind_testcase_list
+from xmind2testcase2021.zentao import xmind_to_zentao_csv_file
+from xmind2testcase2021.testlink import xmind_to_testlink_xml_file
+from xmind2testcase2021.utils import get_xmind_testsuites, get_xmind_testcase_list
 from flask import Flask, request, send_from_directory, g, render_template, abort, redirect, url_for
 
 here = os.path.abspath(os.path.dirname(__file__))
@@ -65,7 +65,7 @@ def init():
 
     if not exists(DATABASE):
         init_db()
-    app.logger.info('Congratulations! the xmind2testcase webtool database has initialized successfully!')
+    app.logger.info('Congratulations! the xmind2testcase2021 webtool database has initialized successfully!')
 
 
 @app.before_request

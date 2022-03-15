@@ -4,7 +4,7 @@ import json
 import os
 import xmind
 import logging
-from xmind2testcase.parser import xmind_to_testsuites
+from xmind2testcase2021.parser import xmind_to_testsuites
 
 
 def get_absolute_path(path):
@@ -23,7 +23,7 @@ def get_absolute_path(path):
 
 
 def get_xmind_testsuites(xmind_file):
-    """Load the XMind file and parse to `xmind2testcase.metadata.TestSuite` list"""
+    """Load the XMind file and parse to `xmind2testcase2021.metadata.TestSuite` list"""
     xmind_file = get_absolute_path(xmind_file)
     workbook = xmind.load(xmind_file)
     xmind_content_dict = workbook.getData()

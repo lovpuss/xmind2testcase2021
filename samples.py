@@ -3,12 +3,12 @@
 import json
 import xmind
 import logging
-from xmind2testcase.zentao import xmind_to_zentao_csv_file
-from xmind2testcase.testlink import xmind_to_testlink_xml_file
-from xmind2testcase.utils import xmind_testcase_to_json_file
-from xmind2testcase.utils import xmind_testsuite_to_json_file
-from xmind2testcase.utils import get_xmind_testcase_list
-from xmind2testcase.utils import get_xmind_testsuite_list
+from xmind2testcase2021.zentao import xmind_to_zentao_csv_file
+from xmind2testcase2021.testlink import xmind_to_testlink_xml_file
+from xmind2testcase2021.utils import xmind_testcase_to_json_file
+from xmind2testcase2021.utils import xmind_testsuite_to_json_file
+from xmind2testcase2021.utils import get_xmind_testcase_list
+from xmind2testcase2021.utils import get_xmind_testsuite_list
 
 logging.basicConfig(level=logging.INFO)
 

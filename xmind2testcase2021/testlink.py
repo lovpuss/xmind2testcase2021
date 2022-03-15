@@ -5,9 +5,9 @@ import os
 from io import BytesIO
 from xml.dom import minidom
 from xml.sax.saxutils import escape
-from xmind2testcase import const
-from xmind2testcase.parser import config
-from xmind2testcase.utils import get_xmind_testsuites, get_absolute_path
+from xmind2testcase2021 import const
+from xmind2testcase2021.parser import config
+from xmind2testcase2021.utils import get_xmind_testsuites, get_absolute_path
 from xml.etree.ElementTree import Element, SubElement, ElementTree, Comment
 
 """
@@ -136,7 +136,7 @@ def is_should_skip(content):
 
 
 def _convert_execution_type(value):
-    if value in (1, '手动', '手工', 'manual', 'Manual'):
+    if value in (1, '功能测试', '手工', 'manual', 'Manual'):
         return '1'
     elif value in (2, '自动', '自动化', '自动的', 'Automate', 'Automated', 'Automation', 'automate', 'automated', 'automation'):
         return '2'

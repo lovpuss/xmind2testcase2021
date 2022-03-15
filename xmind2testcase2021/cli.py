@@ -2,9 +2,9 @@
 # _*_ coding:utf-8 _*_
 import logging
 import sys
-from xmind2testcase.zentao import xmind_to_zentao_csv_file
-from xmind2testcase.testlink import xmind_to_testlink_xml_file
-from xmind2testcase.utils import get_absolute_path, xmind_testcase_to_json_file
+from xmind2testcase2021.zentao import xmind_to_zentao_csv_file
+from xmind2testcase2021.testlink import xmind_to_testlink_xml_file
+from xmind2testcase2021.utils import get_absolute_path, xmind_testcase_to_json_file
 from webtool.application import launch
 
 logging.basicConfig(level=logging.INFO,
@@ -12,20 +12,20 @@ logging.basicConfig(level=logging.INFO,
                     datefmt='%Y/%m/%d %H:%M:%S')
 
 using_doc = """
-    Xmind2Testcase is a tool to parse xmind file into testcase file, which will help you generate a testlink recognized
+    xmind2testcase2021 is a tool to parse xmind file into testcase file, which will help you generate a testlink recognized
     xml file or a zentao recognized cvs file, then you can import it into testlink or zentao.
     
     Usage:
-     xmind2testcase [path_to_xmind_file] [-csv] [-xml] [-json]
-     xmind2testcase [webtool] [port_num]
+     xmind2testcase2021 [path_to_xmind_file] [-csv] [-xml] [-json]
+     xmind2testcase2021 [webtool] [port_num]
     
     Example:
-     xmind2testcase /path/to/testcase.xmind        => output testcase.csv、testcase.xml、testcase.json
-     xmind2testcase /path/to/testcase.xmind -csv   => output testcase.csv
-     xmind2testcase /path/to/testcase.xmind -xml   => output testcase.xml
-     xmind2testcase /path/to/testcase.xmind -json  => output testcase.json
-     xmind2testcase webtool                        => launch the web testcase conversion tool locally: 127.0.0.1:5001
-     xmind2testcase webtool 8000                   => launch the web testcase conversion tool locally: 127.0.0.1:8000
+     xmind2testcase2021 /path/to/testcase.xmind        => output testcase.csv、testcase.xml、testcase.json
+     xmind2testcase2021 /path/to/testcase.xmind -csv   => output testcase.csv
+     xmind2testcase2021 /path/to/testcase.xmind -xml   => output testcase.xml
+     xmind2testcase2021 /path/to/testcase.xmind -json  => output testcase.json
+     xmind2testcase2021 webtool                        => launch the web testcase conversion tool locally: 127.0.0.1:5001
+     xmind2testcase2021 webtool 8000                   => launch the web testcase conversion tool locally: 127.0.0.1:8000
     """
 
 

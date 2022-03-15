@@ -161,7 +161,7 @@
                 "sha256:b97607a1a18a5100839aec1dc26a1ea17ee0d93b20b0f008d80a5a050afb200b"
             ],
             "markers": "python_version < '3.8'",
-            "version": "==1.5.0"
+            "version": "==1.0.3"
         },
         "keyring": {
             "hashes": [
@@ -175,7 +175,7 @@
                 "sha256:7424f2c8511c186cd5424bbf31045b77435b37a8d604990b79d4e70d741148bb",
                 "sha256:a6d9e40ca61ad3ebd0b72fbadd4fba16e4c0e4df0428c041e01e06eb6ee71f32"
             ],
-            "version": "==1.5.0.1"
+            "version": "==1.0.3.1"
         },
         "pygments": {
             "hashes": [
